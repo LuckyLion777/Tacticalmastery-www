@@ -1,0 +1,6 @@
+image: php
+
+pipelines:
+  branches:
+    master:
+      - step:

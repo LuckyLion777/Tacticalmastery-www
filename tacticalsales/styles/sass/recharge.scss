@@ -1,0 +1,321 @@
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: url(../../images/recharge_1/main-bg.jpg) no-repeat;
+  background-size: cover;
+  font-size: 16px;
+  color: #333;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-family: 'Roboto Slab', serif;
+}
+h2 {
+  font-family: 'Roboto Slab', serif;
+}
+h3 {
+  font-family: 'Roboto Slab', serif;
+}
+h4 {
+  font-family: 'Roboto Slab', serif;
+}
+h5 {
+  font-family: 'Roboto Slab', serif;
+}
+h6 {
+  font-family: 'Roboto Slab', serif;
+}
+img {
+  max-width: 100%;
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+.logo {
+  text-align: center;
+  padding: 40px 0;
+}
+.menu {
+  margin-bottom: 40px;
+  background: url(../../images/recharge_1/menu-bg.png) no-repeat;
+  background-size: 100% 100%;
+  ul {
+    overflow: hidden;
+    li {
+      float: left;
+      width: 33.33%;
+      text-align: center;
+      display: inline-block;
+      padding: 8px 0;
+      a {
+        font-family: 'Roboto Slab', serif;
+        text-decoration: none;
+        color: #ff6600;
+        font-size: 20px;
+        text-transform: uppercase;
+      }
+      &:nth-child(2) {
+        a {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+.rechargable {
+  width: 80%;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, .70);
+  padding: 20px;
+  color: #000;
+  text-align: center;
+  margin-bottom: 50px;
+  p {
+    font-size: 24px;
+    margin: 0;
+  }
+  h2 {
+    font-size: 34px;
+    margin: 20px 0;
+    font-weight: 700;
+  }
+}
+.rechargable-content {
+  background: url(../../images/recharge_1/content-bg.png) no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  padding-bottom: 30px;
+}
+.re-battery {
+  position: absolute;
+  top: -60px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  img {
+    display: block;
+  }
+}
+.re-content-inner {
+  width: 480px;
+  margin: 0 auto;
+}
+.premium {
+  background: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+  margin: 218px 0 25px;
+}
+.premium-inner {
+  border: 3px solid #444;
+  padding: 20px 10px 10px;
+  p {
+    color: #333;
+    font-family: "Roboto Slab",serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+}
+.warrenty {
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 25px;
+  p {
+    margin-bottom: 15px;
+  }
+  a.btn {
+    background: rgba(0, 0, 0, 0) url("../../images/recharge_1/green-btn-bg.png") no-repeat scroll 0 0 / 100% 100%;
+    color: #fff;
+    display: inline-block;
+    font-size: 32px;
+    font-weight: 800;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 0 1px #000;
+    width: 290px;
+  }
+}
+.warrenty-inner {
+  border: 3px solid #ff6600;
+  padding: 20px;
+}
+.purchase {
+  margin-bottom: 20px;
+  .warrenty-inner {
+    border: 3px solid #999999;
+    p {
+      color: #666666;
+    }
+    a.btn {
+      background: rgba(0, 0, 0, 0) url("../../images/recharge_1/grey-btn-bg.png") no-repeat scroll 0 0 / 100% 100%;
+    }
+  }
+}
+.btm-text {
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  p {
+    line-height: 20px;
+    margin: 0;
+  }
+  span {
+    font-style: italic;
+    display: block;
+  }
+}
+
+a.cta {
+  background-image: linear-gradient(#ED2329,#95090F);
+  border: 1px solid #7F090D;
+  padding: 12px;
+  color: #ffffff;
+  padding: 15px 25px;
+  border-radius: 4px;
+  margin: 20px 0;
+
+  &:hover {
+    color: #333333;
+    text-decoration: none;
+  }
+
+  &.green {
+    background: #0F8012;
+  }
+
+  &.block {
+    display: block;
+    text-align: center;
+  }
+
+  &.add-ls {
+    letter-spacing: 4px;
+  }
+}
+
+.main-footer {
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+
+  .heading {
+    font-size: 24px;
+  }
+
+  .information {
+    color: #C4C4C4;
+    margin-top:4px;
+    margin-bottom:4px;
+  }
+
+  a {
+    color: #C4C4C4;
+
+    &:hover {
+      color: #C4C4C4;
+      text-decoration: underline;
+    }
+  }
+}
+
+@media all and (max-width:1000px) {
+  .container {
+    width: 700px;
+  }
+  .rechargable-content {
+    background-size: 100% 100%;
+  }
+}
+@media all and (max-width:767px) {
+  .container {
+    width: 100%;
+  }
+  .logo {
+    padding: 20px 0;
+  }
+  .menu {
+    background: none;
+    margin-bottom: 10px;
+    ul {
+      li {
+        width: 100%;
+        display: block;
+        margin-bottom: 10px;
+        background: url(../../images/recharge_1/li-black-bg.png) no-repeat;
+        background-size: 100% 100%;
+        &:nth-child(2) {
+          background: url(../../images/recharge_1/li-orange-bg.png) no-repeat;
+          background-size: 100% 100%;
+        }
+        a {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+  .rechargable-wrap {
+    padding: 0;
+  }
+  .rechargable {
+    width: 100%;
+    margin: 0 auto;
+    strong {
+      color: #fc1e1e;
+    }
+    h2 {
+      line-height: 45px;
+    }
+    strong.re-strong1 {
+      color: #000;
+      display: block;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+  .re-battery {
+    width: 320px;
+    top: -10px;
+  }
+  .rechargable-content {
+    background: url(../../images/recharge_1/mobile-bg.jpg) no-repeat;
+    background-size: 100% 100%;
+  }
+  .re-content-inner {
+    width: 100%;
+  }
+  .premium {
+    margin: 220px 0 20px;
+  }
+  .premium-inner {
+    p {
+      font-size: 20px;
+    }
+    padding: 10px;
+  }
+  .warrenty {
+    a.btn {
+      width: 250px;
+      max-width: 100%;
+    }
+    p {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+  }
+  .warrenty-inner {
+    padding: 10px;
+  }
+  .footer {
+    padding: 100px 20px 30px;
+  }
+}

@@ -1,0 +1,75 @@
+& .corners {
+	position: absolute;
+	top: 0; left:0;
+	width: 100%;
+	height: 100%;
+
+	&:after {
+		content: "";
+		position: absolute;
+		bottom: -2px;
+		right: -17px;
+		width: 17px;
+		height: 17px;
+		@include background("../../images/corners/corner-right.svg", 100% 100%);
+		z-index: 9000;
+		display: none;
+	}
+
+	&:before {
+		content: "";
+		position: absolute;
+		bottom: -2px;
+		left: -17px;
+		width: 17px;
+		height: 17px;
+		@include background("../../images/corners/corner-left.svg", 100% 100%);
+		z-index: 9000;
+		display: none;
+	}
+}
+
+&.no1-2 .corners {
+	&:before { display: none; }
+	&:after { display: block; }
+}
+
+&.no2-2 .corners {
+	&:before { display: block; }
+	&:after { display: none; }
+}
+
+&.no1-3 .corners {
+	&:before { display: none; }
+	&:after { display: block; }
+}
+
+&.no2-3 .corners {
+	&:before { display: block; }
+	&:after { display: block; }
+}
+
+&.no3-3 .corners {
+	&:before { display: block; }
+	&:after { display: none; }
+}
+
+&.no1-4 .corners {
+	&:before { display: none; }
+	&:after { display: block; }
+}
+
+&.no2-4 .corners {
+	&:before { display: block; }
+	&:after { display: block; }
+}
+
+&.no3-4 .corners {
+	&:before { display: block; }
+	&:after { display: block; }
+}
+
+&.no3-4 .corners {
+	&:before { display: block; }
+	&:after { display: none; }
+}

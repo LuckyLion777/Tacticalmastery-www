@@ -1,0 +1,22 @@
+{
+  "development" : {
+    "src_dir" : "./",
+    "build_dir" : "./",
+    "lander_dir": "tacticalsales/",
+    "checkout_dir": "tacticalsales/",
+    "deploy_mode": "dev",
+    "debug": true
+  },
+  "production" : {
+    "build_dir" : "./build/",
+    "src_dir" : "./",
+    "lander_dir": "tacticalsales/",
+    "checkout_dir": "tacticalsales/",
+    "deploy_mode": "production",
+    "debug": false
+  },
+  "base-config": {
+    "fonts": ["Hero", "Open-Sans", "EurostileLTStd", "fontawesome", "Oswald"],
+    "compile-html": ["index","index-v3", "tm8", "tm2", "tm3", "tm4", "tm5", "tm6", "tm7", "checkout", "us_recharge", "us_hlmp", "us_headlampoffer", "us_batteryoffer", "us_warranty", "receipt","bob"]
+  }
+}

@@ -1,0 +1,101 @@
+// Modal Implementation
+#tm-modal.modal {
+  .modal-dialog {
+    width: 100%;
+    max-width: 720px;
+    margin-top: 35px;
+    @media (max-width: 767px) {
+      max-width: 640px;
+    }
+    @media (max-width: 695px) {
+      margin: 0;
+      max-width: 100%;
+      .modal-footer {
+        display: none;
+      }
+    }
+  }
+  &.in {
+    .modal-dialog {
+      transform: translate(0, 0);
+    }
+  }
+  &.fade {
+    .modal-dialog {
+      transition: transform 0.3s ease-in-out;
+    }
+  }
+  .modal-title {
+    text-align: center;
+  }
+  .modal-content {
+    position: relative;
+    background-color: #ffffff;
+    background-clip: padding-box;
+    outline: 0;
+    border: 0;
+    border-radius: 2px;
+    box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.15), 0 25px 55px 0 rgba(0, 0, 0, 0.1);
+    @media (max-width: 695px) {
+      border-radius: 0;
+    }
+  }
+  .modal-footer {
+    display: none;
+  }
+  .close-modal {
+    background-color: #FFF !important;
+    position: absolute;
+    border-radius: 100%;
+    top: -20px;
+    right: -20px;
+    padding: 5px !important;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1), 0px 2px 3px rgba(0, 0, 0, 0.15);
+    opacity: 1 !important;
+    transition: all .15s ease;
+    line-height: 0;
+    outline: none;
+    &:hover {
+      opacity: 1;
+      box-shadow: 0px 2px 15px rgba(0, 0, 0, .10), 0px 2px 10px rgba(0, 0, 0, .15);
+      svg {
+        fill: #F44336;
+      }
+    }
+    &:focus,
+    &:active {
+      outline: none!important;
+    }
+    svg {
+      fill: #919191;
+    }
+    @media (max-width: 695px) {
+      box-shadow: 0 0 transparent !important;
+      background: transparent !important;
+      top: 0;
+      right: 0;
+      width: 30px;
+      height: 30px;
+    }
+  }
+  @media (max-width: 695px) {
+    background: #fff;
+    .modal-content {
+      box-shadow: none;
+    }
+  }
+}
+.modal-backdrop {
+  &.in {
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: #000;
+  }
+}

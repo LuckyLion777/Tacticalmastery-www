@@ -1,0 +1,398 @@
+@charset "utf-8";
+/* CSS Document */
+/*-----------------------responsive--------------------------*/
+body {
+  font-family: 'Lato', sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.t-header {
+  background: #fff;
+  padding: 12px 0 5px;
+}
+.col-xs-1 {
+  padding: 0 10px;
+}
+.col-sm-1 {
+  padding: 0 10px;
+}
+.col-md-1 {
+  padding: 0 10px;
+}
+.col-lg-1 {
+  padding: 0 10px;
+}
+.col-xs-2 {
+  padding: 0 10px;
+}
+.col-sm-2 {
+  padding: 0 10px;
+}
+.col-md-2 {
+  padding: 0 10px;
+}
+.col-lg-2 {
+  padding: 0 10px;
+}
+.col-xs-3 {
+  padding: 0 10px;
+}
+.col-sm-3 {
+  padding: 0 10px;
+}
+.col-md-3 {
+  padding: 0 10px;
+}
+.col-lg-3 {
+  padding: 0 10px;
+}
+.col-xs-4 {
+  padding: 0 10px;
+}
+.col-sm-4 {
+  padding: 0 10px;
+}
+.col-md-4 {
+  padding: 0 10px;
+}
+.col-lg-4 {
+  padding: 0 10px;
+}
+.col-xs-5 {
+  padding: 0 10px;
+}
+.col-sm-5 {
+  padding: 0 10px;
+}
+.col-md-5 {
+  padding: 0 10px;
+}
+.col-lg-5 {
+  padding: 0 10px;
+}
+.col-xs-6 {
+  padding: 0 10px;
+}
+.col-sm-6 {
+  padding: 0 10px;
+}
+.col-md-6 {
+  padding: 0 10px;
+}
+.col-lg-6 {
+  padding: 0 10px;
+}
+.col-xs-7 {
+  padding: 0 10px;
+}
+.col-sm-7 {
+  padding: 0 10px;
+}
+.col-md-7 {
+  padding: 0 10px;
+}
+.col-lg-7 {
+  padding: 0 10px;
+}
+.col-xs-8 {
+  padding: 0 10px;
+}
+.col-sm-8 {
+  padding: 0 10px;
+}
+.col-md-8 {
+  padding: 0 10px;
+}
+.col-lg-8 {
+  padding: 0 10px;
+}
+.col-xs-9 {
+  padding: 0 10px;
+}
+.col-sm-9 {
+  padding: 0 10px;
+}
+.col-md-9 {
+  padding: 0 10px;
+}
+.col-lg-9 {
+  padding: 0 10px;
+}
+.col-xs-10 {
+  padding: 0 10px;
+}
+.col-sm-10 {
+  padding: 0 10px;
+}
+.col-md-10 {
+  padding: 0 10px;
+}
+.col-lg-10 {
+  padding: 0 10px;
+}
+.col-xs-11 {
+  padding: 0 10px;
+}
+.col-sm-11 {
+  padding: 0 10px;
+}
+.col-md-11 {
+  padding: 0 10px;
+}
+.col-lg-11 {
+  padding: 0 10px;
+}
+.col-xs-12 {
+  padding: 0 10px;
+}
+.col-sm-12 {
+  padding: 0 10px;
+}
+.col-md-12 {
+  padding: 0 10px;
+}
+.col-lg-12 {
+  padding: 0 10px;
+}
+img {
+  max-width: 100%;
+}
+.t-wrap {
+  background: url(../../images/thankyou_1/bg1.jpg) repeat;
+}
+.phone-number {
+  font-size: 45px;
+  color: #9ac15f;
+  float: right;
+  text-align: right;
+  p {
+    margin: 0;
+    color: #9ac15f;
+    font-weight: 700;
+  }
+  span {
+    font-size: 40px;
+  }
+}
+.thanks-msg {
+  background: #9ac15f;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 15px 0;
+  p {
+    font-size: 20px;
+    color: #fff;
+    margin: 0;
+    span {
+      font-size: 24px;
+      font-weight: 700;
+    }
+  }
+}
+.t-content {
+  background: #fff;
+  padding: 20px 10px;
+}
+.t-box1 {
+  background: #f5f5f5;
+  padding: 12px;
+}
+.t-box2 {
+  background: #f5f5f5;
+  padding: 12px;
+  p {
+    margin-bottom: 20px;
+  }
+  p.confirm-msg {
+    font-size: 38px;
+    font-weight: 700;
+    color: #424244;
+    margin-bottom: 25px;
+    line-height: 40px;
+    overflow: hidden;
+  }
+  h3 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #4a4a4a;
+  }
+  img {
+    float: left;
+    margin: 6px 20px 0 0;
+  }
+}
+.product-img {
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+.discount-msg {
+  background: #3d4450;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  h3 {
+    margin: 0 0 15px 0;
+    font-size: 26px;
+    font-weight: 700;
+  }
+  p {
+    margin: 0;
+  }
+}
+.box-inner {
+  background: #fff;
+  padding: 15px;
+  min-height: 479px;
+}
+.t-box3 {
+  text-align: center;
+  >p {
+    margin-bottom: 26px;
+    &:nth-child(3) {
+      margin: 0;
+    }
+  }
+}
+.ad2 {
+  margin-top: 20px;
+  float: left;
+  img {
+    width: 100%;
+  }
+}
+.footer-wrap {
+  text-align: center;
+  padding: 30px 0;
+  p {
+    font-size: 14px;
+    color: #bdbdbd;
+    margin-bottom: 15px;
+  }
+  p.f-links {
+    color: #9ac15f;
+    margin-top: 30px;
+    margin-bottom: 0;
+    a {
+      text-decoration: none;
+      font-size: 14px;
+      text-decoration: none;
+      color: #9ac15f;
+    }
+  }
+}
+@media all and (max-width:980px) {
+  .t-box2 {
+    img {
+      width: 40px;
+      margin: 6px 10px 0 0;
+    }
+    p.confirm-msg {
+      font-size: 20px;
+      line-height: normal;
+    }
+    p {
+      margin-bottom: 10px;
+    }
+  }
+  .t-content {
+    padding: 20px 0;
+  }
+}
+@media all and (max-width:767px) {
+  .thanks-msg {
+    margin: 15px;
+    p {
+      font-size: 16px;
+      span {
+        font-size: 20px;
+      }
+    }
+  }
+  .t-header {
+    text-align: center;
+  }
+  .phone-number {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 15px;
+    span {
+      font-size: 35px;
+    }
+  }
+  .t-box3 {
+    margin-top: 15px;
+  }
+  .t-box2 {
+    p.confirm-msg {
+      font-size: 26px;
+      line-height: 35px;
+    }
+    img {
+      width: 70px;
+    }
+  }
+}
+
+/* thanks page */
+.thanksfield {
+  font-weight: bolder;
+}
+@media (min-width: 240px) {
+  .btn-chat-online {
+    position: absolute;
+    color: #FFF;
+    font-size: 24px;
+    top: 14px;
+    left: 79px;
+  }
+  .btn-support {
+    position: absolute;
+    color: #333;
+    font-size: 28px;
+    top: 130px;
+    left: 60px;
+    z-index: 10;
+  }
+}
+@media (min-width: 320px) {
+  .btn-chat-online {
+    font-size: 27px;
+    top: 13px;
+    left: 105px;
+  }
+}
+@media (min-width: 360px) {
+  .btn-chat-online {
+    left: 120px;
+  }
+}
+@media (min-width: 411px) {
+  .btn-chat-online {
+    left: 145px;
+  }
+}
+@media (min-width: 768px) {
+  .btn-chat-online {
+    left: 75px;
+    top: 13px;
+    font-size: 20px;
+  }
+}
+@media (min-width: 991px) {
+  .btn-chat-online {
+    left: 75px;
+    top: 13px;
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .btn-chat-online {
+    left: 80px;
+    top: 14px;
+    font-size: 26px;
+  }
+}

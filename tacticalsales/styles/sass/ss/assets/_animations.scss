@@ -1,0 +1,57 @@
+@media (min-width: $screen-lg-min) {
+
+	.addAnimation { visibility: hidden; }
+
+	@mixin animation-thing($name, $speed: 1s) {
+		.#{$name} {
+			animation-name: $name;
+			animation-duration: $speed;	
+			animation-timing-function: ease;
+			visibility: visible !important;
+		}
+	}
+
+	@mixin animation-thing-hide($name, $speed: 1s) {
+		.#{$name} {
+			animation-name: $name;
+			animation-duration: $speed;	
+			animation-timing-function: ease;
+			visibility: hidden !important;
+		}
+	}
+
+	@include animation-thing(fadeInRight);
+	@include animation-thing(fadeInLeft);
+	@include animation-thing(fadeInDown);
+	@include animation-thing(fadeInUp);
+	@include animation-thing(fadeIn);
+
+	@include animation-thing-hide(fadeOutRight);
+	@include animation-thing-hide(fadeOutLeft);
+	@include animation-thing-hide(fadeOutDown);
+	@include animation-thing-hide(fadeOutUp);
+	@include animation-thing-hide(fadeOut);
+	
+	@include animation-thing(zoomInRight);
+	@include animation-thing(zoomInLeft);
+	@include animation-thing(zoomInDown);
+	@include animation-thing(zoomInUp);
+	@include animation-thing(zoomIn);
+
+	@include animation-thing-hide(zoomOutRight);
+	@include animation-thing-hide(zoomOutLeft);
+	@include animation-thing-hide(zoomOutDown);
+	@include animation-thing-hide(zoomOutUp);
+	@include animation-thing-hide(zoomOut);
+
+	@include animation-thing-hide(zoomOut);
+
+	@include animation-thing(bounceInRight);
+	@include animation-thing(bounceInLeft);
+	@include animation-thing(bounceInDown);
+	@include animation-thing(bounceInUp);
+	@include animation-thing(bounceIn);
+
+}
+
+@import "../animations/animate_css";

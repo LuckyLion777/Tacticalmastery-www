@@ -1,0 +1,88 @@
+/* Welcome to Compass. Use this file to write IE specific override styles.
+ * Import this file using the following HTML or equivalent:
+ * <!--[if IE]>
+ *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ * <![endif]--> */
+
+.ie-notice {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 50px;
+  background: red;
+  color: white;
+  font-weight: 300;
+  text-align: center;
+  font-size: em(21);
+  line-height: 1.4em;
+
+  p {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+body.index {
+  .features {
+    background: darkslategray url("../../images/index_3/top-menu-bg.png") repeat-x;
+  }
+
+  .container {
+    .logo {
+      float: left;
+      margin-left: 4%;
+      margin-right: 0;
+      margin-top: 5px;
+    }
+
+    .message {
+      float: left;
+      margin: 20px 0 30px;
+
+      &:last-child {
+        float: right;
+      }
+    }
+  }
+
+  .page-container {
+    .panel-one {
+      .cta-buttons {
+        .cta.green {
+          .over {
+            background-image: url("../../images/index_3/btn-green-bg.png");
+            background-repeat: repeat-x;
+          }
+        }
+        .cta.red {
+          .over {
+            background-image: url("../../images/index_3/btn-red-bg.png");
+            background-repeat: repeat-x;
+          }
+        }
+      }
+    }
+  }
+}
+
+body {
+  .tingle-modal {
+    .offer-off {
+      form#js-form-lead {
+        input {
+          height: 32px;
+          padding: 0 14px;
+        }
+        input[name="firstName"] {
+          float: left;
+        }
+        input[name="lastName"] {
+          float: right;
+        }
+      }
+    }
+  }
+}

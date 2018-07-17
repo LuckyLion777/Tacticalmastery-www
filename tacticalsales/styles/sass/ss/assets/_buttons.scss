@@ -1,0 +1,67 @@
+.button {
+	display: inline-block;
+	font-size: em(15);
+	// padding: 7px 15px;
+	padding: 0.5em 0.8em;
+	border-radius: 5px;
+	font-weight: 500;
+
+	i.fa { margin-left: 5px; }
+
+	&.blank-bg {
+		background: transparent;
+		// border-bottom: 2px solid darken(transparent, 10%);
+		text-decoration: none;
+		color: $white;
+		text-transform: uppercase;
+
+		&:hover, .active {
+			background: $red;
+			// border-bottom: 2px solid darken($red, 10%);
+			color: $white !important;
+		}
+	}
+
+	&.blue {
+		background: $blue;
+		color: $white;
+		text-decoration: none;
+		border: none;
+
+		&:hover {
+			background: darken($red, 10%);
+		}
+	}
+
+	&.red {
+		background: $red;
+		color: $white;
+		text-decoration: none;
+		border: none;
+
+		&:hover {
+			background: darken($blue, 10%);
+		}
+	}
+
+	&.white {
+		background-image: url('../../images/pattern_light.jpg');
+		color: $red;
+		text-decoration: none;
+
+		&:hover {
+			
+		}
+	}
+
+	&.inset {
+		// @include background-image(linear-gradient(#E8E8E8, #F7F7F7));
+		background: rgba(black, 0.05);
+		box-shadow: inset 0px 0px 3px 0px rgba(0,0,0,0.25);
+
+		&.blank-bg {
+			color: #9fa3aa;
+		}
+	}
+
+}

@@ -1,0 +1,540 @@
+@charset "utf-8";
+/* CSS Document */
+body
+            {
+                margin: auto;
+                overflow-x: hidden;
+            }
+            #anchor
+            {
+                color: #488ace;
+                font-weight: 400;
+            }
+            #anchor:hover
+            {
+                color: orange;
+            }
+            #header_2
+            {
+                width: 100%;
+                height: 130px;
+                line-height: 130px;
+                box-shadow: 0px 0px 5px 5px #d3d3d3;
+				padding-top: 20px;
+            }
+			 #header
+            {
+                width: 100%;
+                height: 130px;
+                line-height: 130px;
+                box-shadow: 0px 0px 5px 5px #d3d3d3;
+				
+            }
+            #header p {
+                margin: 0;
+            }
+			.cus_p h2{ margin-top:0px;}
+            #logo
+            {
+                font-family: 'Oswald', sans-serif;
+                font-size: 60px;
+                color: #c3b14d;
+                letter-spacing: 3px;
+                font-weight: 300;
+            }
+            .birds_logo {
+                float: left;
+              /*  margin: -20px 10px 0 10%;
+                width: 15%;*/
+                
+            }
+            .top-nav{
+            	float:right;
+            	width: 20%;
+            	margin-top: -80px;
+            	color: gray;
+            }
+            
+            .top-nav a{
+            	color: gray;
+            	font-size: 18px;
+            }
+						.mark_bg {
+				color: #000;
+				background: #ff0 !important;
+			}
+            #logoimg {
+                float: left;
+                margin: 0 10px 0 10%;
+                width: 28%;
+            }
+            #article
+            {
+              /*  padding: 40px 0px 40px 0px;
+                width: 80%;
+                min-height: 100%;
+                margin: auto;*/
+            }
+
+            #title {
+                color: rgb(78, 78, 78);
+              
+                font-size: 35px; float:left; width:100%; margin-top:15px;
+              
+            }
+            #today
+            {
+                font-family: 'Roboto', sans-serif;
+                font-size: 18px;
+                color: gray;
+                letter-spacing: 2px;
+                margin: 20px 0px;
+            }
+            #contentimg
+            {
+              
+                float: left;
+				width:100%;
+                margin:0px;
+                padding: 5px;
+                box-shadow: 0px 0px 5px 5px #d3d3d3;
+            }
+			.cus_p p{ margin-top:10px;}
+            #contentimg1
+            {
+                /*width: 40%; */
+                float: center;
+                margin: 20px 0px 20px 0px;
+                padding: 5px;
+                box-shadow: 0px 0px 5px 5px #d3d3d3;
+            }
+			.socail_img h1 img{ margin-right:10px;}
+            p
+            {
+                color: gray;
+             
+                font-size: 12px;
+                font-weight: 300;
+                line-height: 28px;
+				margin-bottom: 12px;
+               
+            }
+			.custo-mar{ margin:20px 0px;}
+			.cus_m { margin:0 auto; float:none;}
+			.cus_m .col-md-6{ padding-right:2px; padding-left:2px;}
+				.cus_m .col-md-12{ padding:1px;}
+			.cus_m img{ margin-top:2px;}
+			.custom ul li{ margin:10px 0px; font-size:16px;}
+			
+            #button
+            {
+                width: 200px;
+                height: 30px;
+                line-height: 30px;
+                color: white;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 300;
+                font-size: 20px;
+                background: -webkit-linear-gradient(#e24343 0%, #e24343 50%, #a71313 50%, #a71313 100%);
+                border: 2px #a71313 solid;
+                border-radius: 3px;
+                text-align: center;
+                cursor: pointer;
+
+            }
+            footer {
+                background: #333;
+color: #fff;
+padding: 40px 0;
+font-size: .8125em;
+border-bottom: 15px solid #000;
+            }
+            table td
+            {
+                padding: 0px 10px;
+            }
+            #reco
+            {
+                width: 300px;
+                line-height: 25px;
+            }
+            #imgreco
+            {
+                width: 300px;
+                cursor: pointer;
+            }
+            #recotitle
+            {
+                font-weight: normal;
+                color: black;
+                cursor: pointer;
+            }
+            #bow
+            {
+                float: right;
+            }
+            .firstcharacter { float: left; color: rgba(0,0,0,0.5); font-size: 75px; line-height: 60px; padding-top: 4px; padding-right: 8px; padding-left: 3px; font-family: Georgia; }
+
+            #adv {font-size: 19px; color: rgba(0,0,0,0.5)}
+
+            #disc {font-size: 14px; color: #fff; }
+			.foot_p{ text-transform:none; color:#fff;}
+			.socail_img h1 { text-align:center; margin: 0 auto;
+width: 17%;}
+.article-footer {
+    margin: 30px auto 50px;
+    text-align: center;
+}
+
+.article-footer .container .social-media {
+    text-align: center;
+    font-size: 26px;
+    padding: 0;
+    margin: 0;
+}
+.article-footer .container .nav {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.article-footer .container .social-media li {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.article-footer .container .social-media li a.icon-facebook {
+    background: url(../img/social.png) left 0 no-repeat;
+}
+.article-footer .container .social-media li a.icon-twitter {
+    background: url(../img/social.png) right 0 no-repeat;
+}
+a.icon-instagram {
+    background: url(../img/social.png) center 0 no-repeat;
+}
+.article-footer p{ margin:0px;}
+.article-footer .container .social-media li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    top: 0;
+    transition: all ease-out .3s;
+}
+
+.article-footer .container .nav {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.article-footer .container .nav li {
+    display: inline-block;
+    font-weight: 400;
+}
+.h_link{ background:#FF0; color:#333; padding:5px;}
+			@media screen and (min-device-width: 319px) and (max-device-width: 640px) { 
+			#contentimg1 {width: 90%;}
+						.cus_m img {
+				margin-top: 20px !important;
+				float: none;
+				margin: 0 auto;
+			}
+							.socail_img h1 {
+				text-align: center;
+				margin: 10 auto;
+				width: 43%;
+			}
+			
+			}
+
+            @media only screen and (max-device-width: 768px)
+            {
+                #body
+                {
+                    margin: auto;
+                }
+                #anchor
+                {
+                    color: #488ace;
+                    font-weight: 400;
+                    font-size: 30px;
+                }
+                #header {
+                    height: auto;
+                    line-height: 130px;
+                    text-align: center;
+                    width: 100%;
+                }
+                #logo
+                {
+                    font-size: 30px;
+                    line-height: 1.4;
+                    padding: 0 0 15px;
+                    display: block;
+
+                }
+
+                #logoimg {
+                    float: none;
+                    margin: 0 auto;
+                    width: 54%;
+                }
+                .birds_logo {
+                    float: none;
+                    margin: 0 auto;
+                    text-align: center;
+                    width: 50%;
+                }
+				
+                .birds_logo > img {
+                    width: 50%;
+                }
+                 .top-nav{
+            	float:none;
+            	width: 100%;
+            	margin: 0px auto;
+            	text-align: center;
+            	
+            	}
+            	
+            	
+                #article
+                {
+                    width: 95%;
+                }
+                #title
+                {
+                    font-size: 60px;
+                }
+                #today
+                {
+                    font-size: 28px;
+                }
+                #contentimg
+                {
+                    width: 100%;
+                    float: none;
+                }
+                p
+                {
+                    font-size: 22px;
+                }
+                #button
+                {
+                    height: 100px;
+                    line-height: 100px;
+                    width: 500px;
+                    font-size: 40px;
+                    font-weight: 400;
+                }
+                #title {
+                    font-size: 28px;
+                }
+
+                footer {
+                    background-color: #505050;
+                    height: auto;
+                    padding: 0 10px;
+                    width: auto;
+                }
+				
+				.top-nav{ width:100%; !important;
+				}
+				.top-nav a{ font-size:15px;
+				}
+				
+				
+
+            }
+            @media only screen and (max-device-width: 600px)
+            {
+								#header_2 {
+					width: 100%;
+					height: 150px;
+					line-height: 130px;
+					box-shadow: 0px 0px 5px 5px #d3d3d3;
+					padding:0px;
+				}
+                #article img {
+                    width: 75%;
+                }
+                #logoimg {
+                    float: none;
+                    margin: 1px 0;
+                    width: 60%;
+                }
+                .birds_logo {
+                    margin: -24px auto 0 0;
+                    width: 100%;
+                    margin: 10px auto;
+                }
+                #header {
+                    height: auto;}
+
+                .new_logo1 {
+                    display: inline-block;
+                    text-align: center;
+                    width: 100%;
+                }
+                #title {
+                    font-size: 24px;
+                }
+
+                #anchor {
+
+                    font-size: 21px;
+
+                }
+
+                #article img {
+                    width: 94%;
+                }
+
+                .birds_logo > img {
+                    margin-bottom: 10px;
+                    width: 36%;
+                }
+                
+                .social{
+            		position: absolute;
+            		right: 180px;
+            		top: -65px;
+	            }
+				.social .text-right {
+					vertical-align: middle;
+					list-style-type: none;
+				}
+				.social .text-right {
+					list-style-type: none;
+				}
+				.social .text-right .item {
+					display: inline-block;
+				}
+				.social .item .sub-item {
+					color: #000;
+					margin-left: 24px;
+				}
+				
+				.top-nav{ width:100%!important;
+				}
+				.top-nav a{ font-size:15px;
+				}
+				#article .videoContainer {
+					width: 100%;
+				}		 
+			
+            }
+            @media only screen and (max-device-width: 480px)
+            {
+
+                #logoimg {
+                    float: none;
+                    margin: 1px 0;
+                    width: 66%;
+                }
+                #header {
+                    height: auto;}
+
+                p {
+                    font-size: 16px;
+					margin:0;
+
+                }
+                
+                .social{
+            		position: absolute;
+            		right: 180px;
+            		top: -65px;
+	            }
+				.social .text-right {
+					vertical-align: middle;
+					list-style-type: none;
+				}
+				.social .text-right {
+					list-style-type: none;
+				}
+				.social .text-right .item {
+					display: inline-block;
+				}
+				.social .item .sub-item {
+					color: #000;
+					margin-left: 24px;
+				}
+				
+				.top-nav{ height:auto !important;
+				}
+				.top-nav a{ font-size:15px;
+				}
+				
+				#article .videoContainer {
+					width: 100%;
+				}		 
+				
+				
+            }
+            
+			.social_area {
+			    width: auto;
+			    text-align: center;
+			    right: 0;
+			}
+			.social_area ul {
+			    width: auto;
+			    margin: 0 55px 0 0;
+			}
+			.social_area ul li {
+			    width: auto;
+			    display: inline-block;
+			    margin: 0 0 0 10px;
+			}
+			.social_area ul li > a {
+			    text-decoration: none;
+			    color: #666;
+			    font-size: 24px;
+			}
+			.social_area ul li > a:hover {
+			    color: #b00202;
+			}
+			.social_area .bttn {
+			    width: auto;
+			    position: absolute;
+			    right: 0;
+			    top: -5px;
+			}
+			.social_area .bttn > a {
+			    color: #fff;
+			    font-size: 24px;
+			    text-decoration: none;
+			}
+			
+			.fa{
+				 font-size:30px !important;}
+			
+			.videoContainer{
+				width: 51%;
+				
+			}	 
+			.videoWrapper {
+		    	position: relative;
+		    	padding-bottom: 56.25%;
+		    	padding-top: 25px;
+		    	height: 0;
+		    }
+		    .videoWrapper iframe,
+		    .videoWrapper object,
+		    .videoWrapper embed {
+		    	position: absolute;
+		    	top: 0;
+		    	left: 0;
+		    	width: 100%;
+		    	height: 100%;
+		    }
+		    video {
+			  width: 100%    !important;
+			  height: auto   !important;
+			}
+

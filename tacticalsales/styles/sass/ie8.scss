@@ -1,0 +1,46 @@
+body.index {
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .main-footer {
+    overflow: hidden;
+  }
+
+  .badges {
+    max-width: 465px;
+    margin: 15px auto 40px;
+
+    ul {
+      overflow: hidden;
+      padding: 0;
+
+      li {
+        float: left;
+        width: 25%;
+        text-align: center;
+        line-height: 42px;
+
+        img {
+          max-width: 90%;
+        }
+      }
+    }
+  }
+}
+
+.checkout-page {
+  .mainform  {
+    .col-md-8 {
+      @media (min-width: 960px) {
+        width: 67%;
+      }
+    }
+    .col-md-4 {
+      @media (min-width: 960px) {
+        width: 33%;
+      }
+    }
+  }
+}

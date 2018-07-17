@@ -1,0 +1,115 @@
+
+.fade {
+  opacity: 0;
+  transition: opacity 0.15s linear;
+}
+.fade.in {
+  opacity: 1;
+}
+.collapse {
+  display: none;
+  visibility: hidden;
+}
+.collapse.in {
+  display: block;
+  visibility: visible;
+}
+tr.collapse.in {
+  display: table-row;
+}
+tbody.collapse.in {
+  display: table-row-group;
+}
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  transition-property: height, visibility;
+  transition-duration: 0.35s;
+  transition-timing-function: ease;
+}
+.modal-open {
+  overflow: hidden;
+}
+.modal {
+  display: none;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999999999999;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+}
+.modal.fade .modal-dialog {
+  transform: translate(0, -50%);
+  transition: transform 0.3s ease-in-out;
+}
+.modal.in .modal-dialog {
+  transform: translate(0, 0);
+}
+.modal-open .modal {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.modal-dialog {
+  position: relative;
+  width: auto;
+  margin: 10px;
+  z-index: 999999999999;
+}
+.modal-content {
+  border-radius: 10px;
+  position: relative;
+  background-color: #ffffff;
+  background-clip: padding-box;
+  outline: 0;
+
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    color: rgba(black, 0.1);
+    font-size: 30px;
+    width: 35px;
+    z-index: 999999999;
+    curosr: pointer;
+    transition: all linear 200ms;
+
+    &:hover {
+      color: rgba(black, 0.3);
+    }
+  }
+}
+.modal-backdrop {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #000000;
+}
+.modal-backdrop.fade {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.modal-backdrop.in {
+  opacity: 0.8;
+  filter: alpha(opacity=50);
+}
+.modal-scrollbar-measure {
+  position: absolute;
+  top: -9999px;
+  width: 50px;
+  height: 50px;
+  overflow: scroll;
+}
+.modal-dialog {
+  max-width: 900px;
+  &.mini { max-width: 800px; }
+  width: 90%;
+  margin: 30px auto;
+}
